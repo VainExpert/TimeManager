@@ -7,7 +7,7 @@ import datetime
 
 """
 TODO:
-Land zu Tag ausgebeen (again...)
+Land zu Tag ausgeben (again...)
 """
 
 class internationalDays():
@@ -90,7 +90,7 @@ class internationalDays():
             self.internationaleTage.update({datum: [newname]})
 
         else:
-            if newname not in self.internationaleTage[date]:
+            if newname not in self.internationaleTage[datum]:
                 self.internationaleTage[datum].append(newname)
             
             return True
