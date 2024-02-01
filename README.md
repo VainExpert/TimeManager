@@ -1,4 +1,4 @@
-# Python Timemanagement
+# Time Managers
 
 ## PythonCalender
 
